@@ -1,16 +1,81 @@
-# React + Vite
+# 🌍 AirAware AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+### Smart Air Pollution & AQI Monitoring System
 
-Currently, two official plugins are available:
+AirAware AI is a web-based air quality monitoring system built using **React.js**.  
+It provides real-time air quality information, pollutant details, AQI forecasting, health recommendations, and city-wise air quality comparison.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🌫️ Real-time AQI monitoring
+- 🏙️ Search and select different cities
+- 📊 AQI category and status
+- 💨 PM2.5 and PM10 monitoring
+- 🏭 CO, NO₂, SO₂ and O₃ pollutant information
+- 🌡️ Current temperature
+- 💧 Humidity information
+- 🔮 AQI forecast for the next day
+- ❤️ Health and safety recommendations
+- 🏙️ Compare air quality between different cities
+- 🔄 Refresh latest air quality data
+- 📱 Responsive design for mobile and desktop
+- 🌐 Data fetched from Open-Meteo Air Quality API
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Technologies Used
+
+### Frontend
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+
+### API
+- Open-Meteo Air Quality API
+
+### Tools
+- VS Code
+- Git
+- GitHub
+- Vercel
+
+---
+
+## 📁 Project Structure
+
+```text
+airaware-ai/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── SearchCity.jsx
+│   │   ├── AQICard.jsx
+│   │   ├── PollutantCard.jsx
+│   │   ├── HealthAdvice.jsx
+│   │   ├── PredictionCard.jsx
+│   │   ├── PollutionInfo.jsx
+│   │   ├── CityComparison.jsx
+│   │   └── Footer.jsx
+│   │
+│   ├── data/
+│   │   └── cityData.js
+│   │
+│   ├── utils/
+│   │   ├── aqiUtils.js
+│   │   └── aqiApi.js
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── package.json
+├── package-lock.json
+└── README.md
